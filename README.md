@@ -6,21 +6,23 @@ Just wanted to build a quick little reference project for working with Node emai
 
 ## Structure
 
-Simple Express server with a Node email handler and sample email controller method/route that sends an email when the endpoint is hit.
+Simple Express server with a Node email handler and sample email controller method/route that sends an email when the endpoint is hit. Email templates live in the "views" folder.
 
 ## Starting the project
 
 1. Clone the repository
 2. Navigate to the cloned project and run `yarn install`
 3. Create a variables.env file with the following variables:
-   NODE_ENV=development
-   DATABASE=<mongoURL>
-   PORT=<someport>
-   JWT_SECRET=<jwt_secret>
-   MAIL_USER=<mail_username>
-   MAIL_PASS=<mail_password>
-   MAIL_HOST=<mail_host>
-   MAIL_PORT=<mail_port>
+   ```
+   NODE_ENV
+   DATABASE
+   PORT
+   JWT_SECRET
+   MAIL_USER
+   MAIL_PASS
+   MAIL_HOST
+   MAIL_PORT
+   ```
 4. To start the project, run `yarn start`
 
 ## TODO
