@@ -1,0 +1,7 @@
+/theHaters
+
+# Dependencies
+node_modules/
+
+# Environment variables
+variables.env
